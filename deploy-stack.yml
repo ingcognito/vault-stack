@@ -39,3 +39,5 @@ services:
 
 networks:
   default:
+    external: true
+    name: core
